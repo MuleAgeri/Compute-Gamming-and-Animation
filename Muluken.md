@@ -196,6 +196,7 @@ Drew shapes on the Game Lab's grid per the instructions.
       Draw grass fill("green"); rect(0,300,400,100);
 
   **Level Seven :** Practice with parameters I choose B that "Debug: Missing Shapes"
+  
          fill("black");
          rect(25, 50, 300, 300); 
          fill("white");
@@ -210,17 +211,21 @@ Drew shapes on the Game Lab's grid per the instructions.
          rect(100, 125, 50, 50);
 
 **Level Eight :** Assessment Debug - Using 4 Parameters background("skyblue");
+
     Draw sun 
          fill("yellow");  
          ellipse(300,50,50,50);
+
     Draw grass 
         fill("green"); 
         rect(0,300,400,100);
+
     Draw cloud 
         fill("white");  
         ellipse(150,100,200,100);
 
-**Level nine :** Challenges I select B "Shape" 
+**Level nine :** Challenges I select B "Shape"
+
        fill("red");  
        shape(200, 200, 0, 400, 400, 400); 
        fill("blue");  
@@ -252,7 +257,7 @@ Drew shapes on the Game Lab's grid per the instructions.
            var location = 200;  
            fill("OrangeRed");  
            ellipse(dimension,location, sizeofcircle, sizeofcircle);
-           
+
   **Level Five:**Using a variables
     The key concepts of this lesson is:
 
