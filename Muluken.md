@@ -36,14 +36,14 @@ Template Types:
 
    **Question of the Day:** How can we clearly communicate how to draw something on a screen?
 
-      - Use grids, axes, or dotted lines to help users place elements accurately.
-      - Drew shapes on the Game Lab's grid per the instructions.
+       Use grids, axes, or dotted lines to help users place elements accurately.
+       Drew shapes on the Game Lab's grid per the instructions.
   
 ### Lesson 3: Drawing In Game Lab
 
    **Question of the Day:** How can we communicate to a computer how to draw shapes on the screen?
     
-        In this lesson, you will begin to use Game Lab to position shapes on the screen while learning the concepts of sequencing and debugging.
+    In this lesson, you will begin to use Game Lab to position shapes on the screen while learning the concepts of sequencing and debugging.
    
    Introduction to the code:
 
@@ -53,57 +53,57 @@ Template Types:
       - fill(color): Sets the fill color for shapes.
       - rect(x, y, w, h): Draws a rectangle at position (x, y) with width w and height h.
   
-   Level One: Introduction to Game Lab
+   **Level One:** Introduction to Game Lab
      Code:
         - rect(100, 100);
      When this is run, a rectangle is displayed on the screen at position (100, 100).
-   Level Two to Level Six: Skill Building
+   **Level Two to Level Six:** Skill Building
      Code:
-        - rect(350, 350, 50, 50);
+       ``` - rect(350, 350, 50, 50);```
      A small rectangle appears at (350, 350) with a size of 50x50.
-   Level Three:
+   **Level Three:**
      Code:
-        - rect(350, 350, 50, 50);  
-        - rect(300, 350, 50, 50);
-     Two rectangles appear side by side at positions (350, 350) and (300, 350).
-   Level Four:
+       ``` - rect(350, 350, 50, 50);  
+           - rect(300, 350, 50, 50);```
+    Two rectangles appear side by side at positions (350, 350) and (300, 350).
+   **Level Four:**
      Code:
-        - fill("yellow");  
-        - rect(100, 100, 50, 50);  
-        - rect(250, 100, 50, 50);  
-        - rect(100, 200, 50, 50);
-     Three yellow rectangles are displayed in different positions, forming part of a pattern.
-   Level Five:
+       ```- fill("yellow");  
+          - rect(100, 100, 50, 50);  
+          - rect(250, 100, 50, 50);  
+          - rect(100, 200, 50, 50);```
+    Three yellow rectangles are displayed in different positions, forming part of a pattern.
+   **Level Five:**
      Code:
-        - fill("blue");  
-        - rect(200, 200);  
-        - fill("green");  
-        - rect(175, 175);
+        ```- fill("blue");  
+           - rect(200, 200);  
+           - fill("green");  
+           - rect(175, 175);```
      A blue rectangle and a green rectangle are layered on the screen.
-   Level Six: 
+   **Level Six:**
      Code:
-        - fill("blue");  
-        - ellipse(100, 100);  
-        - fill("yellow");  
-        - ellipse(200, 200);
+       `` - fill("blue");  
+          - ellipse(100, 100);  
+          - fill("yellow");  
+          - ellipse(200, 200);``
      A blue circle and a yellow circle are drawn on the screen.
-   Level Seven: Practice
+   **Level Seven:** Practice
    Task: Choose an activity to practice.
      Chosen Activity: "Draw a Car"
        Code:
-          - fill("blue");  
-          - rect(150, 150);  
-          - rect(200, 150);  
-          - fill("green");  
-          - rect(100, 200);  
-          - rect(150, 200);  
-          - rect(200, 200);  
-          - rect(250, 200);  
-          - fill("red");  
-          - ellipse(150, 250);  
-          - ellipse(250, 250);
+         ``` - fill("blue");  
+             - rect(150, 150);  
+             - rect(200, 150);  
+             - fill("green");  
+             - rect(100, 200);  
+             - rect(150, 200);  
+             - rect(200, 200);  
+             - rect(250, 200);  
+             - fill("red");  
+             - ellipse(150, 250);  
+             - ellipse(250, 250);```
      This creates a basic car shape using rectangles and circles for wheels.
-   Level Eight: Assessment
+   **Level Eight:** Assessment
      Code: 
        ``` - fill("orange");
            - ellipse(150, 150);  
@@ -137,67 +137,73 @@ Template Types:
 
   **Level Two - Six :** Skil building
   **Level two :** 
-    ```fill("blue"); 
-        rect(100,100,100,150); 
-        fill("red");
-         rect(250,100,100,200);```
+      ``` fill("blue"); 
+          rect(100,100,100,150); 
+          fill("red");
+          rect(250,100,100,200);```
   **Level Three :**
     Add an orange ellipse to the screen that is taller than the green one
     Rearrange the blocks so the orange ellipse is behind the green one
-      fill("yellow"); 
-      ellipse(200, 200, 250, 400); 
-      fill("green"); 
-      ellipse(200,200,200,150);
+       ``fill("yellow"); 
+         ellipse(200, 200, 250, 400); 
+         fill("green"); 
+         ellipse(200,200,200,150);``
 
-  Level Four :
+  **Level Four :**
     Change the background from yellow to orange.   
-        background("orange");  
-        fill("purple"); 
-        rect(50,50, 100,100); 
-        fill("blue"); rect(250,250, 100, 100);
+        ```background("orange");  
+           fill("purple"); 
+           rect(50,50, 100,100); 
+           fill("blue"); rect(250,250, 100, 100);```
 
-  Level Five :
+  **Level Five :**
     Make a black background behind the green circle. 
-        background("black");  
-        fill("green");  
-        ellipse(200,200,200,200);
+        ```background("black");  
+           fill("green");  
+           ellipse(200,200,200,200);```
 
-  Level Six :
-      Draw sky background("skyblue");
-      Draw sun fill("yellow"); ellipse(350,50,50,50);
+  **Level Six :**
+      Draw sky 
+        ```background("skyblue");```
+      Draw sun
+        ```fill("yellow");```
+        ``` ellipse(350,50,50,50);```
       Draw grass fill("green"); rect(0,300,400,100);
 
-  Level Seven : Practice with parameters I choose B that "Debug: Missing Shapes"
-      fill("black");
-      rect(25, 50, 300, 300); 
-      fill("white");
-      rect(40, 65, 250, 250);
-      fill("black"); 
-      rect(55, 80, 200, 200);
-      fill("white"); 
-      rect(70, 95, 150, 150);
-      fill("black");
-      rect(85, 110, 100, 100);
-      fill("white");   
-      rect(100, 125, 50, 50);
+  **Level Seven :** Practice with parameters I choose B that "Debug: Missing Shapes"
+      ```fill("black");
+         rect(25, 50, 300, 300); 
+         fill("white");
+         rect(40, 65, 250, 250);
+         fill("black"); 
+         rect(55, 80, 200, 200);
+         fill("white"); 
+         rect(70, 95, 150, 150);
+         fill("black");
+         rect(85, 110, 100, 100);
+         fill("white");   
+         rect(100, 125, 50, 50);```
 
-Level Eight : Assessment Debug - Using 4 Parameters background("skyblue");
-    Draw sun fill("yellow");  
-    ellipse(300,50,50,50);
-    Draw grass fill("green"); 
-    rect(0,300,400,100);
-    Draw cloud fill("white");  
-    ellipse(150,100,200,100);
+**Level Eight :** Assessment Debug - Using 4 Parameters background("skyblue");
+    Draw sun 
+      ```fill("yellow");  
+         ellipse(300,50,50,50);```
+    Draw grass 
+    ``` fill("green"); 
+        rect(0,300,400,100);```
+    Draw cloud 
+     ```fill("white");  
+        ellipse(150,100,200,100);```
 
-Level nine : Challenges I select B "Shape" 
-    fill("red");  
-    shape(200, 200, 0, 400, 400, 400); 
-    fill("blue");  
-    shape(200, 200, 0, 0, 400, 0);  
-    fill("green");  
-    shape(0, 0, 200, 200, 0, 400);  
-    fill("yellow");  
-    shape(200, 200, 400, 0, 400, 400);
+**Level nine :** Challenges I select B "Shape" 
+    ```fill("red");  
+       shape(200, 200, 0, 400, 400, 400); 
+       fill("blue");  
+       shape(200, 200, 0, 0, 400, 0);  
+       fill("green");  
+       shape(0, 0, 200, 200, 0, 400);  
+       fill("yellow");  
+       shape(200, 200, 400, 0, 400, 400);```
 
 ### Lesson Five : Variables
 
