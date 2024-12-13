@@ -158,9 +158,9 @@ Template Types:
 
   **Level Five :**
     Make a black background behind the green circle. 
-        ```background("black");  
-           fill("green");  
-           ellipse(200,200,200,200);```
+ ```background("black");  
+    fill("green");  
+    ellipse(200,200,200,200);```
 
   **Level Six :**
       Draw sky 
