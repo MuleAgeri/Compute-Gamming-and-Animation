@@ -212,18 +212,15 @@ Drew shapes on the Game Lab's grid per the instructions.
 
 **Level Eight :** Assessment Debug - Using 4 Parameters background("skyblue");
 
-    Draw sun 
-
+ Draw sun 
          fill("yellow");  
          ellipse(300,50,50,50);
 
-    Draw grass 
-
+Draw grass 
         fill("green"); 
         rect(0,300,400,100);
 
-    Draw cloud 
-    
+Draw cloud 
         fill("white");  
         ellipse(150,100,200,100);
 
