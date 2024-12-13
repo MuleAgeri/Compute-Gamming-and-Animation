@@ -35,8 +35,10 @@ Template Types:
 ### Lesson 2:  Plotting Shapes
 
 **Question of the Day:** How can we clearly communicate how to draw something on a screen?
-   Use grids, axes, or dotted lines to help users place elements accurately.
-   Drew shapes on the Game Lab's grid per the instructions.
+
+    Use grids, axes, or dotted lines to help users place elements accurately.
+
+    Drew shapes on the Game Lab's grid per the instructions.
   
 ### Lesson 3: Drawing In Game Lab
 
@@ -56,14 +58,16 @@ Template Types:
 
      Code:
 
-        ```- rect(100, 100);```
+        ``` rect(100, 100);```
   When this is run, a rectangle is displayed on the screen at position (100, 100).
+
 **Level Two to Level Six:** Skill Building
 
      Code:
 
-         ``` - rect(350, 350, 50, 50);```
+          ```rect(350, 350, 50, 50);```
   A small rectangle appears at (350, 350) with a size of 50x50.
+
 **Level Three:**
 
      Code:
@@ -71,6 +75,7 @@ Template Types:
          ``` - rect(350, 350, 50, 50);  
              - rect(300, 350, 50, 50);```
   Two rectangles appear side by side at positions (350, 350) and (300, 350).
+
 **Level Four:**
 
      Code:
@@ -80,6 +85,7 @@ Template Types:
           - rect(250, 100, 50, 50);  
           - rect(100, 200, 50, 50);```
   Three yellow rectangles are displayed in different positions, forming part of a pattern.
+
 **Level Five:**
 
      Code:
@@ -89,6 +95,7 @@ Template Types:
            - fill("green");  
            - rect(175, 175);```
   A blue rectangle and a green rectangle are layered on the screen.
+
 **Level Six:**
 
      Code:
@@ -97,7 +104,8 @@ Template Types:
           - ellipse(100, 100);  
           - fill("yellow");  
           - ellipse(200, 200);``
-  A blue circle and a yellow circle are drawn on the screen.
+  A blue circle and a yellow circle are drawn on the screen. 
+
 **Level Seven:** Practice 
 
    Task: Choose an activity to practice.
@@ -116,7 +124,7 @@ Template Types:
              - ellipse(150, 250);  
              - ellipse(250, 250);```
   This creates a basic car shape using rectangles and circles for wheels.
-  
+
 **Level Eight:** Assessment
 
      Code:
