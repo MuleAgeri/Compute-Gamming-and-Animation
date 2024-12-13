@@ -36,9 +36,9 @@ Template Types:
 
 **Question of the Day:** How can we clearly communicate how to draw something on a screen?
 
-    Use grids, axes, or dotted lines to help users place elements accurately.
+Use grids, axes, or dotted lines to help users place elements accurately.
 
-    Drew shapes on the Game Lab's grid per the instructions.
+Drew shapes on the Game Lab's grid per the instructions.
   
 ### Lesson 3: Drawing In Game Lab
 
@@ -58,7 +58,7 @@ Template Types:
 
      Code:
 
-        ``` rect(100, 100);```
+         rect(100, 100);
   When this is run, a rectangle is displayed on the screen at position (100, 100).
 
 **Level Two to Level Six:** Skill Building
