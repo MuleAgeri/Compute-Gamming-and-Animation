@@ -34,9 +34,9 @@ Template Types:
 
 ### Lesson 2:  Plotting Shapes
 
-   **Question of the Day:** How can we clearly communicate how to draw something on a screen?
- Use grids, axes, or dotted lines to help users place elements accurately.
- Drew shapes on the Game Lab's grid per the instructions.
+**Question of the Day:** How can we clearly communicate how to draw something on a screen?
+   Use grids, axes, or dotted lines to help users place elements accurately.
+   Drew shapes on the Game Lab's grid per the instructions.
   
 ### Lesson 3: Drawing In Game Lab
 
