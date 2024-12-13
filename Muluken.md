@@ -253,18 +253,22 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
  In this lesson, you will be introduced to variables - an important concept in programming used to store values for your programs!
   **Level One:**
 
-   Prediction Drawing ellipse shape at bottom left corner
+  Prediction Drawing ellipse shape at bottom left corner
+
   **Level Two:**
 
     Predict In the corner of x=300 and y=100
-  **Level Three - Five:** 
+  **Level Three - Five:**
+
       Skill Building
   **Level Three:** 
+
       Changing Variables
            var xPosition = 200; 
            var whatsTheY = 300; 
            ellipse(xPosition, whatsTheY);
-  **Level Four:**  
+  **Level Four:** 
+
       Naming Variables
            var sizeofcircle = 150; 
            var dimension = 100; 
@@ -273,11 +277,12 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
            ellipse(dimension,location, sizeofcircle, sizeofcircle);
 
   **Level Five:**Using a variables
-    The key concepts of this lesson is:
 
-By analyzing the code with one variable, I can anticipate the position of the circle.
-By analyzing the code with two variables, I can predict where the circle will appear.
-I modify the values of the two variables to adjust the circle's location.
+  The key concepts of this lesson is:
+
+  By analyzing the code with one variable, I can anticipate the position of the circle.
+  By analyzing the code with two variables, I can predict where the circle will appear.
+  I modify the values of the two variables to adjust the circle's location.
 
 ### Lesson Six : Random numbers
   Question of the Day: How can we make our programs behave differently each time they are run?
