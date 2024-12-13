@@ -136,6 +136,7 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
             fill("purple");  
             rect(150, 150); 
   Draws overlapping orange circles with a purple rectangle in the center.
+
 **Level Nine:** Challenges
 
    Task: Choose an activity to complete the challenge.
@@ -157,6 +158,7 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 ### Lesson Four : Shapes and Parameters
 
   **Question of the Day:** How can we use parameters to give the computer more specific instructions?
+
  I predicted that the additional parameters for the rect() blocks specify the width and height of the rectangle.
   Level One : Predict Two rectangle that is parallel
 
@@ -169,8 +171,8 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
           rect(250,100,100,200);
   **Level Three :**
 
-    Add an orange ellipse to the screen that is taller than the green one
-    Rearrange the blocks so the orange ellipse is behind the green one
+ Add an orange ellipse to the screen that is taller than the green one
+ Rearrange the blocks so the orange ellipse is behind the green one
          fill("yellow"); 
          ellipse(200, 200, 250, 400); 
          fill("green"); 
