@@ -41,9 +41,9 @@ Template Types:
   
 ### Lesson 3: Drawing In Game Lab
 
-   Question of the Day: How can we communicate to a computer how to draw shapes on the screen?
+   **Question of the Day:** How can we communicate to a computer how to draw shapes on the screen?
     
-       - In this lesson, you will begin to use Game Lab to position shapes on the screen while learning the concepts of sequencing and debugging.
+        In this lesson, you will begin to use Game Lab to position shapes on the screen while learning the concepts of sequencing and debugging.
    
    Introduction to the code:
 
@@ -56,37 +56,37 @@ Template Types:
    Level One: Introduction to Game Lab
      Code:
         - rect(100, 100);
-         When this is run, a rectangle is displayed on the screen at position (100, 100).
+     When this is run, a rectangle is displayed on the screen at position (100, 100).
    Level Two to Level Six: Skill Building
      Code:
         - rect(350, 350, 50, 50);
-         A small rectangle appears at (350, 350) with a size of 50x50.
+     A small rectangle appears at (350, 350) with a size of 50x50.
    Level Three:
      Code:
         - rect(350, 350, 50, 50);  
         - rect(300, 350, 50, 50);
-         Two rectangles appear side by side at positions (350, 350) and (300, 350).
+     Two rectangles appear side by side at positions (350, 350) and (300, 350).
    Level Four:
      Code:
         - fill("yellow");  
         - rect(100, 100, 50, 50);  
         - rect(250, 100, 50, 50);  
         - rect(100, 200, 50, 50);
-          Three yellow rectangles are displayed in different positions, forming part of a pattern.
+     Three yellow rectangles are displayed in different positions, forming part of a pattern.
    Level Five:
      Code:
         - fill("blue");  
         - rect(200, 200);  
         - fill("green");  
         - rect(175, 175);
-         A blue rectangle and a green rectangle are layered on the screen.
+     A blue rectangle and a green rectangle are layered on the screen.
    Level Six: 
      Code:
         - fill("blue");  
         - ellipse(100, 100);  
         - fill("yellow");  
         - ellipse(200, 200);
-         A blue circle and a yellow circle are drawn on the screen.
+     A blue circle and a yellow circle are drawn on the screen.
    Level Seven: Practice
    Task: Choose an activity to practice.
      Chosen Activity: "Draw a Car"
@@ -102,43 +102,46 @@ Template Types:
           - fill("red");  
           - ellipse(150, 250);  
           - ellipse(250, 250);
-          This creates a basic car shape using rectangles and circles for wheels.
+     This creates a basic car shape using rectangles and circles for wheels.
    Level Eight: Assessment
      Code: 
-        - fill("orange");
-        - ellipse(150, 150);  
-        - ellipse(200, 150);  
-        - ellipse(150, 200);  
-        - ellipse(200, 200);  
-        - fill("purple");  
-        - rect(150, 150); 
-         Draws overlapping orange circles with a purple rectangle in the center.
-   Level Nine: Challenges
+       ``` - fill("orange");
+           - ellipse(150, 150);  
+           - ellipse(200, 150);  
+           - ellipse(150, 200);  
+           - ellipse(200, 200);  
+           - fill("purple");  
+           - rect(150, 150); ```
+     Draws overlapping orange circles with a purple rectangle in the center.
+   **Level Nine:** Challenges
    Task: Choose an activity to complete the challenge.
    Chosen Activity: "Face"
      Code:
-        - fill(rgb(66, 245, 230));  
-        - ellipse(150, 100);  
-        - ellipse(250, 100);  
-        - fill("red");  
-        - ellipse(200, 200);  
-        - fill(rgb(66, 245, 135));  
-        - rect(100, 250);  
-        - rect(150, 275);  
-        - rect(200, 275);  
-        - rect(250, 250);
-         This creates a cartoon-style face with eyes, a nose, and a mouth using ellipses and rectangles.
+       ``` - fill(rgb(66, 245, 230));  
+           - ellipse(150, 100);  
+           - ellipse(250, 100);  
+           - fill("red");  
+           - ellipse(200, 200);  
+           - fill(rgb(66, 245, 135));  
+           - rect(100, 250);  
+           - rect(150, 275);  
+           - rect(200, 275);  
+           - rect(250, 250);```
+    This creates a cartoon-style face with eyes, a nose, and a mouth using ellipses and rectangles.
 
 ### Lesson Four : Shapes and Parameters
 
-  Question of the Day: How can we use parameters to give the computer more specific instructions?
-
-    I predicted that the additional parameters for the rect() blocks specify the width and height of the rectangle.
+  **Question of the Day:** How can we use parameters to give the computer more specific instructions?
+ I predicted that the additional parameters for the rect() blocks specify the width and height of the rectangle.
   Level One : Predict Two rectangle that is parallel
 
-  Level Two - Six : Skil building
-  Level two : fill("blue"); rect(100,100,100,150); fill("red"); rect(250,100,100,200);
-  Level Three :
+  **Level Two - Six :** Skil building
+  **Level two :** 
+    ```fill("blue"); 
+        rect(100,100,100,150); 
+        fill("red");
+         rect(250,100,100,200);```
+  **Level Three :**
     Add an orange ellipse to the screen that is taller than the green one
     Rearrange the blocks so the orange ellipse is behind the green one
       fill("yellow"); 
@@ -285,7 +288,6 @@ Level nine : Challenges I select B "Shape"
   Activities:
      Changing sprite properties over time.
      Experimenting with behaviors like bouncing or following paths.
-
 
 ### Lesson Ten : Tesing and Debugging 
   Question of the Day: Why is testing important in programming, and how can we improve our programs?
