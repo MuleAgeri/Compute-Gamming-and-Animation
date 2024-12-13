@@ -258,11 +258,9 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
   **Level Two:**
 
-    Predict In the corner of x=300 and y=100
+  Predict In the corner of x=300 and y=100
 
-  **Level Three - Five:**
-
-      Skill Building
+  **Level Three - Five:** Skill Building
 
   **Level Three:** 
 
@@ -282,47 +280,54 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
   **Level Five:**Using a variables
 
-The key concepts of this lesson is:
+  The key concepts of this lesson is:
 
    By analyzing the code with one variable, I can anticipate the position of the circle.
+
    By analyzing the code with two variables, I can predict where the circle will appear.
+
    I modify the values of the two variables to adjust the circle's location.
 
 ### Lesson Six : Random numbers
-  Question of the Day: How can we make our programs behave differently each time they are run?
-  In this lesson the key concepts are:
-     Key Concepts:
-       Random numbers add diversity and unpredictability to programs.
-       They are effective for varying movements, generating challenges, or altering colors dynamically.
-     Activities:
 
-       Creating random values within a specified range using randomNumber(min, max).
-       Using randomness to enhance animations or interactive elements.
+  Question of the Day: How can we make our programs behave differently each time they are run?
+
+  In this lesson the key concepts are:
+
+   Key Concepts:
+     Random numbers add diversity and unpredictability to programs.
+     They are effective for varying movements, generating challenges, or altering colors dynamically.
+    Activities:
+
+     Creating random values within a specified range using randomNumber(min, max).
+     Using randomness to enhance animations or interactive elements.
   Output the ellipse anywhere horizontally on the screen.
-    fill("orange");
-    ellipse(randomNumber(0,400), 200, 50, 50);
+       fill("orange");
+       ellipse(randomNumber(0,400), 200, 50, 50);
   Combined of the random of the numbers with the variables.
-    var petalSize;
-    background("yellow");
-    petalSize = randomNumber(15,65);
-    fill("purple");
-    ellipse(75,100,petalSize,petalSize);
-    ellipse(125,100,petalSize,petalSize);
-    ellipse(100,75,petalSize,petalSize);
-    ellipse(100,125,petalSize,petalSize);
-    fill("green");
-    ellipse(100,100, 50, 50);
-    petalSize = randomNumber(15,65);
-    fill("purple");
-    ellipse(275,300,petalSize,petalSize);
-    ellipse(325,300,petalSize,petalSize);
-    ellipse(300,275,petalSize,petalSize);
-    ellipse(300,325,petalSize,petalSize);
-    fill("green");
-    ellipse(300,300, 50, 50);
+        var petalSize;
+        background("yellow");
+        petalSize = randomNumber(15,65);
+        fill("purple");
+        ellipse(75,100,petalSize,petalSize);
+        ellipse(125,100,petalSize,petalSize);
+        ellipse(100,75,petalSize,petalSize);
+        ellipse(100,125,petalSize,petalSize);
+        fill("green");
+        ellipse(100,100, 50, 50);
+        petalSize = randomNumber(15,65);
+        fill("purple");
+        ellipse(275,300,petalSize,petalSize);
+        ellipse(325,300,petalSize,petalSize);
+        ellipse(300,275,petalSize,petalSize);
+        ellipse(300,325,petalSize,petalSize);
+        fill("green");
+        ellipse(300,300, 50, 50);
 
 ### Lesson Seven : Mini-Project: Robot Face
+
  Question of the Day: How can randomness enhance creative projects?
+
  Key Concepts:
     - Integrates randomness with creating and positioning shapes.
     - Enables dynamic adjustments to a robot face design for variety and creativity.
@@ -335,33 +340,47 @@ The key concepts of this lesson is:
     - Building an understanding of how randomness enhances interactivity and creativity.
   
 ### Lesson Eight : Sprites
+
  Question of the Day: How are sprites used to represent objects in animations or games?
+
   Steps to Create Sprites:
+
   1. Create a new sprite variable called sprite1:
        Drag out a createSprite() block and give it the variable name sprite1.
   2. Draw your sprites on the screen:
        Drag out a drawSprites() block.
+
  Key Ideas:
+
     Sprites are graphic elements that move and interact.
     They simplify complex animations.
+
  Activities:
     Create and customize sprites in Game Lab.
     Add sprites to interactive projects.
 
 ### Lesson Nine : Sprites Properties
+
  Question: How do sprite properties improve animations?
+
   Key Concepts:
-     Sprites have properties like position, size, and speed that can be manipulated.
-     Understanding and modifying properties allow for advanced animations and interactivity.
+
+  Sprites have properties like position, size, and speed that can be manipulated.
+  Understanding and modifying properties allow for advanced animations and interactivity.
+
   Activities:
-     Changing sprite properties over time.
-     Experimenting with behaviors like bouncing or following paths.
+
+  Changing sprite properties over time.
+  Experimenting with behaviors like bouncing or following paths.
 
 ### Lesson Ten : Tesing and Debugging 
+
   Question of the Day: Why is testing important in programming, and how can we improve our programs?
+
    Key Concepts:
      Testing ensures programs work as intended and identifies bugs.
      Debugging involves finding and fixing errors to improve performance.
+     
    Activities:
      Testing interactive programs with users.
      Refining code for functionality and user experience.
