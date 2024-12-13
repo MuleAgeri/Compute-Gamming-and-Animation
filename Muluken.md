@@ -352,8 +352,8 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
  Key Ideas:
 
-    Sprites are graphic elements that move and interact.
-    They simplify complex animations.
+ Sprites are graphic elements that move and interact.
+ They simplify complex animations.
 
  Activities:
     Create and customize sprites in Game Lab.
@@ -380,10 +380,12 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
    Key Concepts:
      Testing ensures programs work as intended and identifies bugs.
      Debugging involves finding and fixing errors to improve performance.
-     
+
    Activities:
      Testing interactive programs with users.
      Refining code for functionality and user experience.
+
+![alt text](<Screenshot 2024-12-13 111823.png>)
 
 ### Lesson Eleven : 
 
