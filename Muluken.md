@@ -163,6 +163,7 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
   Level One : Predict Two rectangle that is parallel
 
   **Level Two - Six :** Skil building
+
   **Level two :** 
 
           fill("blue"); 
@@ -171,8 +172,8 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
           rect(250,100,100,200);
   **Level Three :**
 
- Add an orange ellipse to the screen that is taller than the green one
- Rearrange the blocks so the orange ellipse is behind the green one
+     Add an orange ellipse to the screen that is taller than the green one
+     Rearrange the blocks so the orange ellipse is behind the green one
          fill("yellow"); 
          ellipse(200, 200, 250, 400); 
          fill("green"); 
@@ -248,11 +249,14 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 ### Lesson Five : Variables
 
   Question of the Day: How can we use variables to store information in our programs?
-    In this lesson, you will be introduced to variables - an important concept in programming used to store values for your programs!
-  **Level One:**   
-      Prediction Drawing ellipse shape at bottom left corner
-  **Level Two:**    
-      Predict In the corner of x=300 and y=100
+
+ In this lesson, you will be introduced to variables - an important concept in programming used to store values for your programs!
+  **Level One:**
+
+   Prediction Drawing ellipse shape at bottom left corner
+  **Level Two:**
+
+    Predict In the corner of x=300 and y=100
   **Level Three - Five:** 
       Skill Building
   **Level Three:** 
