@@ -413,7 +413,8 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
   
       - Use if-statements to make programs interactive and responsive based on specific conditions.
         `if (bird.x < 0) bird.x = 400;`
-        ![image](https://github.com/user-attachments/assets/c9ea9051-1c34-4cc9-8a96-3c5f728bb9da)
+        
+![image](https://github.com/user-attachments/assets/c9ea9051-1c34-4cc9-8a96-3c5f728bb9da)
 
       
 
