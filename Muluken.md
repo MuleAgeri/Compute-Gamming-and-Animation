@@ -328,6 +328,8 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
               ellipse(300,300, 50, 50);
 
         ```
+        ![image](https://github.com/user-attachments/assets/01632b02-cde2-451d-b5ea-202324719657)
+
 
 ### Lesson Seven : Mini-Project: Robot Face
 
@@ -410,7 +412,9 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 ### Lesson 15 Conditionals:
   
       - Use if-statements to make programs interactive and responsive based on specific conditions.
-        `if (bird.x < 0) bird.x = 400;` 
+        `if (bird.x < 0) bird.x = 400;`
+        ![image](https://github.com/user-attachments/assets/c9ea9051-1c34-4cc9-8a96-3c5f728bb9da)
+
       
 
 
