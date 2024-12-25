@@ -885,6 +885,8 @@ Example:
 
  - Incorporate features like movement, collisions, scoring, and animations.
  - Finalize the game with well-designed sprites and visually appealing backgrounds.
+![Screenshot 2024-12-24 235813](https://github.com/user-attachments/assets/097de45a-e2a2-4530-a500-053b0142f383)
+
      
 
 
