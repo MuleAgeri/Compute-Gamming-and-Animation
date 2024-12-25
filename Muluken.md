@@ -328,6 +328,8 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
               ellipse(300,300, 50, 50);
 
         ```
+        ![image](https://github.com/user-attachments/assets/01632b02-cde2-451d-b5ea-202324719657)
+
 
 ### Lesson Seven : Mini-Project: Robot Face
 
@@ -408,6 +410,7 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
   
 ### Lesson 15 Conditionals:
   
+<<<<<<< HEAD
       Use if-statements to make programs interactive and responsive based on specific conditions.
         `if (bird.x < 0) bird.x = 400;` 
   
@@ -428,6 +431,13 @@ Assessment:
   - Show mastery by designing an interactive program using keyboard input.
 Challenges: 
   - Explore creative and advanced applications of keyboard interactivity.
+=======
+      - Use if-statements to make programs interactive and responsive based on specific conditions.
+        `if (bird.x < 0) bird.x = 400;`
+        
+![image](https://github.com/user-attachments/assets/c9ea9051-1c34-4cc9-8a96-3c5f728bb9da)
+
+>>>>>>> 307f435ebb6bbac8561d27874dfe752cbd233e98
       
 ### Lesson 17: Mouse Input
  **Question of the Day:** How else can a computer respond to user actions?
