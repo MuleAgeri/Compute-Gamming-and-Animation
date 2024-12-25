@@ -49,11 +49,11 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
   Here are the key functions introduced in this lesson:
 
-  **ellipse(x, y, w, h):** Draws an ellipse at position (x, y) with width w and height h.
-  **fill(color):** Sets the fill color for shapes.
-  **rect(x, y, w, h):** Draws a rectangle at position (x, y) with width w and height h.
+  - **ellipse(x, y, w, h):** Draws an ellipse at position (x, y) with width w and height h.
+  - **fill(color):** Sets the fill color for shapes.
+  - **rect(x, y, w, h):** Draws a rectangle at position (x, y) with width w and height h.
   
-   **Level One:** Introduction to Game Lab
+  **Level One:** Introduction to Game Lab
 
      Code:
 
@@ -196,12 +196,12 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
   **Level Six :**
 
-      Draw sky 
+      // Draw sky 
             background("skyblue");  
-      Draw sun
+      // Draw sun
             fill("yellow");
             ellipse(350,50,50,50);
-      Draw grass 
+      // Draw grass 
             fill("green");   
             rect(0,300,400,100);
 
@@ -222,15 +222,15 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
 **Level Eight :** Assessment Debug - Using 4 Parameters background("skyblue");
 
-    Draw sun 
+    // Draw sun 
          fill("yellow");  
          ellipse(300,50,50,50);
 
-    Draw grass 
+    // Draw grass 
          fill("green"); 
          rect(0,300,400,100);
 
-    Draw cloud 
+    // Draw cloud 
         fill("white");  
         ellipse(150,100,200,100);
 
@@ -264,14 +264,14 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
   **Level Three:** 
 
-      Changing Variables
+      // Changing Variables
            var xPosition = 200; 
            var whatsTheY = 300; 
            ellipse(xPosition, whatsTheY);
 
   **Level Four:** 
 
-      Naming Variables
+      // Naming Variables
            var sizeofcircle = 150; 
            var dimension = 100; 
            var location = 200;  
@@ -295,8 +295,8 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
   In this lesson the key concepts are:
 
    Key Concepts:
-        Random numbers add diversity and unpredictability to programs.
-       They are effective for varying movements, generating challenges, or altering colors dynamically.
+      Random numbers add diversity and unpredictability to programs.
+      They are effective for varying movements, generating challenges, or altering colors dynamically.
    - Activities:
 
      - Creating random values within a specified range using randomNumber(min, max).
@@ -370,48 +370,512 @@ In this lesson, you will begin to use Game Lab to position shapes on the screen 
 
   - Key Concepts:
 
-  Sprites have properties like position, size, and speed that can be manipulated.
+    - Sprites have properties like position, size, and speed that can be manipulated.
   Understanding and modifying properties allow for advanced animations and interactivity.
 
   - Activities:
 
-  Changing sprite properties over time.
-  Experimenting with behaviors like bouncing or following paths.
+    - Changing sprite properties over time.
+    - Experimenting with behaviors like bouncing or following paths.
 
 ### Lesson Ten : Tesing and Debugging 
 
   **Question of the Day:** Why is testing important in programming, and how can we improve our programs?
 
    - Key Concepts:
-     Testing ensures programs work as intended and identifies bugs.
-     Debugging involves finding and fixing errors to improve performance.
+     - Testing ensures programs work as intended and identifies bugs.
+     - Debugging involves finding and fixing errors to improve performance.
 
    - Activities:
-      Testing interactive programs with users.
-      Refining code for functionality and user experience.
+      - Testing interactive programs with users.
+      - Refining code for functionality and user experience.
 
- : 
 ### Lesson 11 Mini-Project
     
-     - Captioned Scenes: Learn to create dynamic storytelling scenes with captions and visuals.
+      Captioned Scenes: Learn to create dynamic storytelling scenes with captions and visuals.
   
 ### Lesson 12 The Draw Loop:
  
-      - Use a loop to continuously update animations and logic for ongoing visual changes.
+      Use a loop to continuously update animations and logic for ongoing visual changes.
   
 ### Lesson 13 Sprite Movement: 
   
-      - Control sprite motion on the screen using variables and logic.
+      Control sprite motion on the screen using variables and logic.
   
 ### Lesson 14 Mini-Project
   
-      - Animation: Apply skills to create a complete animation with sprite properties and movement.
+      Animation: Apply skills to create a complete animation with sprite properties and movement.
   
 ### Lesson 15 Conditionals:
   
-      - Use if-statements to make programs interactive and responsive based on specific conditions.
+      Use if-statements to make programs interactive and responsive based on specific conditions.
         `if (bird.x < 0) bird.x = 400;` 
+  
+### Lesson 16: Keyboard Input
+Question of the Day: How can our programs react to user input?
+
+Lesson Resources
+Key Concepts:
+
+  - The keyDown() block enables interaction with the keyboard.
+  - Responding to user input creates dynamic and interactive programs.
+Activities:
+  - Prediction: Predict how keyboard input could enhance interactivity.
+  - 2-4. Skill Building: Learn to use the keyDown() block to respond to user actions.
+Practice:
+  -  Create programs that respond to various key inputs.
+Assessment: 
+  - Show mastery by designing an interactive program using keyboard input.
+Challenges: 
+  - Explore creative and advanced applications of keyboard interactivity.
       
+### Lesson 17: Mouse Input
+ **Question of the Day:** How else can a computer respond to user actions?
+**Lesson Resources**
+
+ **Key Concepts:**
+
+  - Utilize mouse actions to make programs interactive.
+  - Use conditional logic with if and if-else statements to handle mouse events.
+  
+**Activities:**
+
+1. **Prediction:** Anticipate how the mouse can enhance interactivity in programs.
+    Skill Building (Steps 2-5):
+     - Learn how to detect mouse clicks and movements.
+     - Write conditional statements to respond to different mouse events (e.g., clicking, hovering).
+  2.**Practice:** Create a program that reacts dynamically to mouse actions.
+  3.**Assessment:** Prove understanding by designing a program with mouse-based interactions.
+  4.**Challenges:** Try advanced features like drag-and-drop or creating a drawing tool.
+
+ ### Lesson 18: Project - Interactive Card
+
+**Question of the Day:** What techniques and skills matter when building an interactive program?
+**Lesson Resources**
+
+**Key Concepts:**
+
+  - Combine user inputs, animations, and logical conditions to build a well-designed project.
+  
+**Activities:**
+
+  1.**Demo App:** Explore a sample interactive card project.
+  2.**Examples:** Study and analyze various interactive card examples for creative ideas.
+    Project Work (Steps 3-7):
+   - Plan your card by selecting a theme and designing its elements.
+   - Implement interactive features using mouse inputs, animations, and sprites.
+   - Test your project thoroughly and make improvements as needed.
+  3.**Reflection:** Consider the skills and approaches used in your project.
+
+### Lesson 19: Velocity
+**Question of the Day:** How do programming tools simplify complex patterns, making them easier to use?
+**Lesson Resources**
+
+**Key Concepts:**
+
+ - Use velocity to move sprites effectively.
+ - Apply the counter pattern to automate updates to a sprite’s position.
+  
+**Activities:**
+
+  1.**Prediction:** Think about how velocity simplifies controlling sprite movements.
+    Skill Building (Steps 2-7):
+   - Learn how to assign velocityX and velocityY to sprites.
+   - Use the counter pattern to manage movement speed and direction.
+  2.**Practice:** Create a program showcasing controlled sprite velocity.
+  3.**Assessment:** Show proficiency by building a program featuring multiple moving sprites.
+  4.**Challenges:** Experiment with advanced movements like acceleration, bouncing effects, or complex trajectories.
+
+### Lesson 20: Collision Detection
+
+**Learned Concepts:**
+
+  - Detect sprite collisions using the isTouching block.
+  - Use the debug block to identify and fix bugs.
+  - Adjust collider parameters with setCollider.
+  
+ **Examples:**
+
+  - Collision Detection Between Bunny and Dinner:
+    ```
+      var backdrop = createSprite(200, 200);
+      backdrop.setAnimation("meadow");
+      var bunny = createSprite(50, 300);
+      bunny.setAnimation("bunny");
+      bunny.velocityX = 3;
+      var robot = createSprite(400, 320);
+      robot.setAnimation("robot");
+      robot.scale = 0.2;
+      robot.velocityX = -3;
+      var dinner = createSprite(370, 350);
+      dinner.setAnimation("stew");
+      dinner.velocityX = -3;
+
+      function draw() {
+          if (bunny.isTouching(dinner)) {
+              bunny.velocityX = 0;
+              dinner.velocityX = 0;
+              robot.velocityX = 0;
+              dinner.setAnimation("bowl"); // Change to empty bowl
+         }
+         drawSprites();
+        } 
+    ```
+
+  - Debugging a Sprite:
+    ```
+      var balloon = createSprite(200, 200);
+      balloon.setAnimation("balloon");
+      balloon.debug = true; // Enable debugging
+
+      var tack = createSprite(350, 50);
+      tack.setAnimation("tack");
+
+      function draw() {
+          background("gray");
+
+         if (balloon.isTouching(tack)) {
+             balloon.setAnimation("popped"); // Change to popped balloon
+         }
+
+         if (keyDown("up")) tack.y -= 1;
+         if (keyDown("down")) tack.y += 1;
+         if (keyDown("left")) tack.x -= 1;
+         if (keyDown("right")) tack.x += 1;
+
+         drawSprites();
+     }
+    ```
+ - Custom Collider Parameters:
+    ```
+
+    var roller = createSprite(200, 200);
+    roller.scale = 2;
+    roller.setAnimation("roller_1");
+    roller.debug = true; // Enable debugging
+    roller.setCollider("rectangle", 0, 0, 45, 180, 30); // Custom collider
+
+    drawSprites();
+    ```
+### Lesson 21: Mini-Project - Side Scroller
+
+ **Objective:** Build a side-scrolling game where the player avoids obstacles.
+
+  - Key Points:
+     - Use background movement for a scrolling effect.
+     - Create obstacles that move toward the player.
+**Code Example:**
+    ```
+      ground.x -= 5; // Scroll the ground
+      if (ground.x < 0) ground.x = 400; // Reset position
+      drawSprites();
+    ```
+### Lesson 22:Complex Sprite Movement 
+
+  - Introduced velocity changes using the counter pattern to simulate acceleration.
+    ```
+     // LESSON 22: Complex Sprite Movement
+      var rock = createSprite(200, 50);
+      rock.setAnimation("rock");
+      rock.velocityY = 0.5;
+
+      function draw() {
+         background("skyblue");
+
+         // Make the rock speed up as it falls
+         rock.velocityY += 0.1;
+
+        drawSprites();
+     }
+    ```
+
+### Lesson 23:Collisions
+
+  -  Demonstrated collision handling with displace().
+     ```
+       var elephant = createSprite(200, 350);
+       elephant.setAnimation("elephant");
+       elephant.scale = 0.5;
+       elephant.velocityY = randomNumber(-3, -1);
+
+       var hippo = createSprite(200, 50);
+       hippo.setAnimation("hippo");
+       hippo.scale = 0.5;
+       hippo.velocityY = randomNumber(1, 3);
+
+      function draw() {
+        background("white");
+
+        // Use displace to make the elephant push the hippo
+        elephant.displace(hippo);
+
+        drawSprites();
+      }
+      ```
+### Lesson 24: Mini-Project - Flyer Game
+
+  - Created a mini flyer game combining gravity, player controls, and object interactions.
+    ``` 
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+
+        var coin = createSprite(randomNumber(50, 350), randomNumber(50, 350));
+        coin.setAnimation("coin");
+        coin.scale = 0.8;
+
+        var rock1 = createSprite(-20, randomNumber(50, 350));
+        rock1.setAnimation("rock");
+        rock1.scale = 0.8;
+        rock1.velocityX = 5;
+
+        var rock2 = createSprite(randomNumber(50, 350), -20);
+        rock2.setAnimation("rock");
+        rock2.scale = 0.8;
+        rock2.velocityY = 5;
+
+        function draw() {
+          background("lightblue");
+
+          // Apply gravity to the player
+          player.velocityY += 0.5;
+
+          // Handle looping obstacles
+          if (rock1.x > 400) {
+            rock1.x = -20;
+            rock1.y = randomNumber(50, 350);
+          }
+          if (rock2.y > 400) {
+            rock2.x = randomNumber(50, 350);
+            rock2.y = -20;
+          }
+
+          // Player controls
+          if (keyWentDown("up")) {
+            player.velocityY = -5;
+          }
+          if (keyDown("left")) {
+            player.velocityX -= 0.1;
+          }
+        if (keyDown("right")) {
+          player.velocityX += 0.1;
+          }
+
+        // Interactions with coin
+        if (player.isTouching(coin)) {
+          coin.x = randomNumber(50, 350);
+          coin.y = randomNumber(50, 350);
+        }
+
+        // Obstacles push the player
+        rock1.displace(player);
+        rock2.displace(player);
+
+        drawSprites();
+
+        // Game over conditions
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+          background("black");
+          textSize(50);
+          fill("green");
+          text("Game Over!", 50, 200);
+          noLoop();
+        }
+      }
+    ```
+
+### Lesson 25:Functions
+
+- Used modular functions to organize repetitive tasks like drawing clouds, trees, and fences.
+
+    ``` 
+          drawBackground();
+          drawClouds();
+          drawTrees();
+          drawFence();
+
+          function drawBackground() {
+            noStroke();
+            background(rgb(0, 200, 255));
+            fill("green");
+            rect(0, 380, 400, 20);
+          }
+
+          function drawTrees() {
+            noStroke();
+
+            // Draw tree trunks
+            fill(rgb(150, 100, 0));
+            rect(210, 330, 30, 50);
+            rect(290, 330, 30, 50);
+            rect(360, 330, 30, 50);
+
+            // Draw tree tops
+            fill("green");
+            drawTriangle(225, 280, 100);
+            drawTriangle(305, 280, 110);
+            drawTriangle(375, 290, 95);
+          }
+
+          function drawClouds() {
+            noStroke();
+            fill("rgba(255, 255, 255, 0.8)");
+            drawCloud(300, 200);
+            drawCloud(100, 100);
+          }
+
+          function drawCloud(x, y) {
+            ellipse(x, y, 200, 50);
+            ellipse(x + 20, y, 200, 70);
+            ellipse(x + 40, y, 200, 50);
+          }
+
+          function drawFence() {
+            stroke("white");
+            strokeWeight(5);
+
+            // Draw fence posts
+            for (let x = 20; x < 400; x += 30) {
+              line(x, 350, x, 380);
+          }
+
+          // Draw horizontal fence line
+          line(0, 360, 400, 360);
+          }
+
+          function drawTriangle(x, y, size) {
+            triangle(
+              x - size / 2,
+              y + size / 2,
+              x + size / 2,
+              y + size / 2,
+              x,
+              y - size / 2
+            );
+          }
+ 
+    ```
+
+### Lesson 26: Fruit Catcher Game
+
+    ```
+        // Variables
+        var score = 0;
+        var missedFruits = 0;
+
+        // Create Sprites
+        var basket = createSprite(200, 350);
+        basket.setAnimation("basket");
+        basket.scale = 0.8;
+
+        var fruit1 = createSprite(randomNumber(50, 350), 0);
+        fruit1.setAnimation("apple");
+        fruit1.scale = 0.5;
+        fruit1.velocityY = 3;
+
+        var fruit2 = createSprite(randomNumber(50, 350), 0);
+        fruit2.setAnimation("banana");
+        fruit2.scale = 0.5;
+        fruit2.velocityY = 4;
+
+        // Main Draw Loop
+        function draw() {
+        // Draw the game background
+        drawGameBackground();
+
+        // Game Over Screen
+        if (missedFruits >= 5) {
+          background("black");
+          fill("red");
+          textSize(48);
+          text("Game Over", 100, 200);
+          noLoop(); // Stop the game loop
+        } else {
+         // Game Logic
+         moveBasket();
+         checkFruitCatch();
+         resetFruits();
+         displayScore();
+
+         drawSprites();
+       }
+       }
+
+        // Functions
+
+        // Draw the game background
+        function drawGameBackground() {
+          background("skyblue"); // Sky color
+          fill("green"); // Grass color
+          rect(0, 380, 400, 20);
+        }
+
+        // Move the basket with arrow keys
+        function moveBasket() {
+          if (keyDown("left")) {
+            basket.x -= 5;
+          }
+          if (keyDown("right")) {
+            basket.x += 5;
+          }
+          // Keep the basket within screen boundaries
+          basket.x = constrain(basket.x, 0, 400);
+        }
+
+        // Check if fruits are caught or missed
+        function checkFruitCatch() {
+          if (basket.isTouching(fruit1)) {
+            score++;
+            resetFruit(fruit1);
+          }
+          if (basket.isTouching(fruit2)) {
+            score++;
+            resetFruit(fruit2);
+          }
+        }
+
+        // Reset fruits when missed or caught
+        function resetFruits() {
+          if (fruit1.y > 400) {
+            missedFruits++;
+            resetFruit(fruit1);
+          }
+          if (fruit2.y > 400) {
+            missedFruits++;
+            resetFruit(fruit2);
+          }
+        }
+
+       // Reset a fruit's position and speed
+       function resetFruit(fruit) {
+        fruit.x = randomNumber(50, 350);
+        fruit.y = 0;
+        fruit.velocityY = randomNumber(3, 6);
+        }
+
+        // Display the score and missed fruits
+        function displayScore() {
+          fill("black");
+          textSize(20);
+          text("Score: " + score, 20, 20);
+          text("Missed: " + missedFruits, 20, 50);
+        }
+    ```
+
+### Lesson 27: Refining the Game Design
+**Objective:** Utilize the design process to enhance game mechanics.
+Example:
+
+ - Evaluating player controls and interactions with enemies.
+ - Introducing sound effects and visual indicators for better feedback.
+
+### Lesson 28: Custom Game Project
+**Objective:** Develop a personalized game that integrates all learned concepts.
+**Key Elements:**
+
+ - Incorporate features like movement, collisions, scoring, and animations.
+ - Finalize the game with well-designed sprites and visually appealing backgrounds.
+     
 
 
 
