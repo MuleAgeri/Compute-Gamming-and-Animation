@@ -1,9 +1,8 @@
 ## Name : Muluken Ageri
 ### ID : UGR/25993/14
 ### Descriptions Of My Game
-**Space Shooter Game**
-
-**Game Title: Space Shooter**
+   **Space Shooter Game**
+   **Game Title: Space Shooter**
 
  ## Developed by: Muluken Ageri
  ## Published on: December 29,2024
