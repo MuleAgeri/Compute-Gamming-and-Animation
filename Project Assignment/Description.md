@@ -2,11 +2,14 @@
 ### ID : UGR/25993/14
 ### Descriptions Of My Game
    **Space Shooter Game**
+
    **Game Title: Space Shooter**
 
- ## Developed by: Muluken Ageri
- ## Published on: December 29,2024
- ## Time Taken to Develop: Four Days
+ **Developed by: Muluken Ageri**
+
+ **Published on: December 29,2024**
+ 
+ **Time Taken to Develop: Four Days**
 
 ## Overview
 
