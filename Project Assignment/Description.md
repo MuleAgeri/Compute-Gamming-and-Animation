@@ -13,21 +13,21 @@ Space Shooter is a fast-paced arcade-style game where players control a spaceshi
 
 ## Features
 
-    - Spaceship Control: Players move the spaceship left and right using the arrow keys.
-    - Shooting Mechanic: Players can shoot bullets at enemies by pressing the spacebar.
-    - Dynamic Enemy Generation: Enemies spawn at regular intervals and move downward towards the player.
-    - Collisions: The game checks for collisions between the spaceship, bullets, and enemies.
-    - Scoring System: Players earn points by successfully shooting enemies, with the score displayed on the screen.
-    - Game Over Condition: The game ends if the spaceship collides with an enemy or if an enemy reaches the bottom of the screen.
-    - Restart Feature: Players can restart the game after a game over by pressing the 'R' key.
-    - Background Color Change: The background color changes randomly each time an enemy is destroyed.
+ - Spaceship Control: Players move the spaceship left and right using the arrow keys.
+ - Shooting Mechanic: Players can shoot bullets at enemies by pressing the spacebar.
+- Dynamic Enemy Generation: Enemies spawn at regular intervals and move downward towards the player.
+- Collisions: The game checks for collisions between the spaceship, bullets, and enemies.
+- Scoring System: Players earn points by successfully shooting enemies, with the score displayed on the screen.
+- Game Over Condition: The game ends if the spaceship collides with an enemy or if an enemy reaches the bottom of the screen.
+- Restart Feature: Players can restart the game after a game over by pressing the 'R' key.
+- Background Color Change: The background color changes randomly each time an enemy is destroyed.
   
 ## Controls
 
-      - LEFT ARROW: Move the spaceship left.
-      - RIGHT ARROW: Move the spaceship right.
-      - SPACEBAR: Shoot bullets.
-      - R: Restart the game after a game over.
+    - LEFT ARROW: Move the spaceship left.
+    - RIGHT ARROW: Move the spaceship right.
+    - SPACEBAR: Shoot bullets.
+    - R: Restart the game after a game over.
   
 ## Game Mechanics
 
